@@ -10,13 +10,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="38">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acl_member.php" pinned="false" current-in-tab="true">
+        <entry file="file://F:/PHP-Project/www/third/acl_member.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <marker date="1512453479659" expanded="true" signature="3269:3377" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="4150:4256" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="4675:4798" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="6626:6748" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="9678:9771" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="10129:10220" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="10825:10933" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="18559:18681" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="35070:35200" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="35741:35869" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="36406:36528" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="37067:37230" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="38653:38796" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="39289:39432" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="39866:39979" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="69730:69826" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="72052:72155" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="72931:73027" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="87953:88083" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="88125:88267" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="101133:101253" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="101295:101447" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="109471:109631" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="110927:110993" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="120050:120144" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="120718:120813" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="121332:121480" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="122076:122224" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="124142:124219" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="129930:130025" ph="select * fro... $" />
+                <marker date="1512453479659" expanded="true" signature="130089:130184" ph="select count... $" />
+                <marker date="1512453479659" expanded="true" signature="133826:133948" ph="select auto_... $" />
+                <marker date="1512453479659" expanded="true" signature="137830:137952" ph="select auto_... $" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +137,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PHP-Project\www\third" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -118,33 +167,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512465588229</updated>
-      <workItem from="1512465589832" duration="106000" />
+      <workItem from="1512465589832" duration="340000" />
+      <workItem from="1512466023312" duration="29000" />
+      <workItem from="1512466260291" duration="188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106000" />
+    <option name="totallyTimeSpent" value="557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -161,9 +212,67 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PHP-Project/www/third/acl_member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1512453479659" expanded="true" signature="3269:3377" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="4150:4256" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="4675:4798" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="6626:6748" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="9678:9771" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="10129:10220" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="10825:10933" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="18559:18681" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="35070:35200" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="35741:35869" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="36406:36528" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="37067:37230" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="38653:38796" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="39289:39432" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="39866:39979" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="69730:69826" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="72052:72155" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="72931:73027" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="87953:88083" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="88125:88267" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="101133:101253" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="101295:101447" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="109471:109631" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="110927:110993" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="120050:120144" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="120718:120813" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="121332:121480" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="122076:122224" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="124142:124219" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="129930:130025" ph="select * fro... $" />
+            <marker date="1512453479659" expanded="true" signature="130089:130184" ph="select count... $" />
+            <marker date="1512453479659" expanded="true" signature="133826:133948" ph="select auto_... $" />
+            <marker date="1512453479659" expanded="true" signature="137830:137952" ph="select auto_... $" />
+          </folding>
         </state>
       </provider>
     </entry>

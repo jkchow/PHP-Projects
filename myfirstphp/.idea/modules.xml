@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/myfirstphp.iml" filepath="$PROJECT_DIR$/.idea/myfirstphp.iml" />
+      <module fileurl="file://F:/PHP-Project/www/third/.idea/third.iml" filepath="F:/PHP-Project/www/third/.idea/third.iml" />
     </modules>
   </component>
 </project>
