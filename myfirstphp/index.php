@@ -237,4 +237,30 @@ switch ($x){
 }
 
 echo "<hr>";
+$cars=array("bob","bmw","toy");
+echo var_dump($cars);
+echo "I like " . $cars[0] .", ".$cars[1];
+echo "<hr>";
+$cars=array("Volvo","BMW","Toyota");
+$arrlength=count($cars);
+for($x=0;$x<$arrlength;$x++)
+{
+    echo $cars[$x];
+    echo "<br>";
+}
+echo "<hr>";
+$age=array("peter"=>"23","Ben"=>"37","Joe"=>"43");
+echo "Peter is " . $age['peter'] . " years old.";
+echo "<br>";
+foreach($age as $x=>$x_value)
+{
+    echo "Key=" . $x . ", Value=" . $x_value;
+    echo "<br>";
+}
+echo "<hr>";
+echo $_SERVER['REMOTE_PORT'];
+echo $_SERVER['SCRIPT_FILENAME'];
+echo $_SERVER['SERVER_PORT'];
+echo $_SERVER['REMOTE_ADDR'];
+echo "<hr>";
 echo "<hr>";
