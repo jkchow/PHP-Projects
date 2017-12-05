@@ -263,6 +263,19 @@ echo $_SERVER['SCRIPT_FILENAME'];
 echo $_SERVER['SERVER_PORT'];
 echo $_SERVER['REMOTE_ADDR'];
 echo "<hr>";
+//php 冒泡
+$arr = array(5, 3, 6, 2, 8, 10);
+for ($i = count($arr) - 1; $i >= 0; $i--) {
+    for ($j = 0; $j < $i; $j++) {
+        if ($arr[$j + 1] > $arr[$j]) {
+            $aa = $arr[$j + 1];
+            $arr[$j + 1] = $arr[$j];
+            $arr[$j] = $aa;
+        }
+    }
+}
+print_r($arr);
+var_dump($arr);
 echo "<hr>";
 echo "<hr>";
 echo "<hr>";
