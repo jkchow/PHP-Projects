@@ -19,7 +19,7 @@ function myTest()
 echo ("<hr>");
 myTest();
 echo "</br>";
-echo $xzz;
+//echo $xzz;
 /**
  * testStatic()
  */
@@ -93,9 +93,9 @@ class Car{
     function  Car($color="green"){
         $this->color=$color;
     }
-//    function what_color(){
-//        return $this->color;
-//    }
+    function what_color(){
+        return $this->color;
+    }
 }
 function print_vars($obj){
     foreach (get_object_vars($obj) as $prop=>$val){
@@ -184,5 +184,57 @@ var_dump($x != $y);
 var_dump($x <> $y);
 var_dump($x !== $y);
 echo "<hr>";
+$test = 123;
+// 普通写法
+$username = isset($test) ? $test : 'nobody1';
+echo $username, PHP_EOL;
+$username = empty($test) ? $test : 'nobody1';
+echo $username, PHP_EOL;
+// PHP 5.3+ 版本写法
+$username = $test ?: 'nobody2';
+echo $username, PHP_EOL;
+echo "<hr>";
+$t=date("H");
+echo $t;
+if($t<10){
+    echo "Have a good morning!";
+}elseif ($t<20){
+    echo "have a goood moring!";
+}else{
+    echo "have a good night";
+}
+
+echo "<hr>";
+$favcolor="red1";
+switch ($favcolor)
+{
+    case "red":
+        echo "你喜欢的颜色是红色!";
+        break;
+    case "blue":
+        echo "你喜欢的颜色是蓝色!";
+        break;
+    case "green":
+        echo "你喜欢的颜色是绿色!";
+        break;
+    default:
+        echo "你喜欢的颜色不是 红, 蓝, 或绿色!";
+}
+echo "<hr>";
+$x='b';
+switch ($x){
+    case 'a':                      //变量$x的值和该种情况匹配，将从此处开始执行。
+        echo "这里是a"."<br>";
+        break;
+    case 'b':
+        echo "这里是b"."<br>";
+        break;
+    case 'c':
+        echo "这里是c"."<br>";
+        break;
+    default:
+        echo "这里是default";
+}
+
 echo "<hr>";
 echo "<hr>";
