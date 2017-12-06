@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Reset ----------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0; font-family:"微软雅黑";}
+table{border-collapse:collapse;border-spacing:0}
+img{ border:0; max-width:100%; height:auto; /*display:block; */}
+html{ height:100%; position:relative;overflow:hidden;}
+body{ height:100%;max-width:640px; overflow:hidden; margin:0 auto; position:relative}
+.app-box{ max-width:640px; min-width:320px; overflow:hidden; margin:0 auto; height:100%; position:absolute; top:0;  left:0; width:100%; }
+
+.box-layouts{ width:100%; height:100%; background:rgba(0,0,0,0.9); overflow:hidden;}
+.box-step1{ padding-bottom:40PX;}
+.box-step2,.box-step1{ color:#fff; font-size:18px;}
+.box-step2 em img{ border-radius:5px; vertical-align:middle;}
+.box-step2 em{ margin-left:10px;}
+.box-step1 em{ display:inline-block; margin:0 10px; background:#313838; border-radius:5px;/* border:2px solid #6e777c; */width:50px; height:30px; text-align:center; line-height:26px; vertical-align:middle;}
+.box-step1 em img{ border-radius:5px; vertical-align:middle;}
+.box-step1 span,.box-step2 span{ background:#ee4911; border-radius:20px; margin-right:8px; width:22px; height:22px; line-height:22px; color:#fff;display:inline-block; text-align:center; font-size:16px;}
+
+.step-wraps{padding:0px 0 0 50px;}
+.arrows{ text-align:right;}
+
+@media screen and (min-width: 320px) {
+ .step-wraps{padding:0px 0 0 20px;}
+}
+@media screen and (min-width: 375px) {
+ .step-wraps{padding:0px 0 0 40px;}
+}
+
+
+@media screen and (min-width: 414px) {
+ .step-wraps{padding:0px 0 0 50px;}
+}
+
+
+
+

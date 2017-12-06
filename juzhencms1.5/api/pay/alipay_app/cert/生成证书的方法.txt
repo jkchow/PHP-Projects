@@ -1,0 +1,33 @@
+在linux系统下（安装过openssl）
+
+
+通过openssl生成公密钥对， 在Linux系统下一般默认已有安装：
+
+1、 让openssl随机生成了一份私钥，加密长度是1024位
+
+openssl genrsa -out rsa_private_key.pem 1024
+2、 根据私钥生成公钥
+
+openssl rsa -in rsa_private_key.pem -out rsa_public_key.pem -pubout
+3、 私钥还不能直接被使用，需要进行PKCS#8编码
+
+openssl pkcs8 -topk8 -inform PEM -in rsa_private_key.pem -outform PEM -out pkcs8_rsa_private_key.pem -nocrypt
+	去掉头和换行， 公密钥对即可使用了。注意私钥是使用PKCS#8编码的版本。
+
+ “去掉头和换行” 举例， 例如公钥如下
+
+yulong$ more rsa_public_key.pem
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnlK8+l+YnhRd0SM9p/D2zhxAw
+sB9Zpt+mDlyyTSLwYPiBhmhemIvkPYHxllQrTop2GnNr4QuF2tGAw/ds5E5G+GGs
+EshN1F5R6rIN2eKk59/nV4f7jzVkV+iq+KfTg8MYAn76PtBUK7TyahnBX4U3Umus
+QGiCIhUyJpCOKrq5EQIDAQAB
+-----END PUBLIC KEY-----
+
+转成代码中的使用的公钥为：
+
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnlK8+l+YnhRd0SM9p/D2zhxAwsB9Zpt+mDlyyTSLwYPiBhmhemIvkPYHxllQrTop2GnNr4QuF2tGAw/ds5E5G+GGsEshN1F5R6rIN2eKk59/nV4f7jzVkV+iq+KfTg8MYAn76PtBUK7TyahnBX4U3UmusQGiCIhUyJpCOKrq5EQIDAQAB
+
+注意如果公钥是放在XML中配置， 要加上 <![CDATA[]]> 防止XML转义
+
+ <property name="PublicKey"><value><![CDATA[${public_key}]]></value></property>

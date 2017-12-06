@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*body{ background:#f8f8f8 url(../image/bg.jpg) repeat-x left top; }
+.loginBg{background:url(../image/bgPic.jpg) no-repeat center top;padding:160px 0 0}
+.login{background:url(../image/logoBg.png) no-repeat; width:369px; height:247px; overflow:hidden; margin:0 auto; padding:20px 30px; }
+input{height:28px; width:258px; border:#a2bfe3 solid 1px; border-radius:5px 5px;float:left; line-height:28px; padding-left:40px; margin-bottom:8px;}
+form{ width:300px; margin:0 auto;}
+.logo{ background:url(../image/logo.png) no-repeat; width:302px; height:28px; margin:10px auto 30px;}
+.username{ background:#f0f6fe url(../image/ico01.png) no-repeat 7px 6px;}
+.pwd{ background:#f0f6fe url(../image/ico02.png) no-repeat 10px 6px;}
+.code{ background:#f0f6fe url(../image/ico03.png) no-repeat 10px 6px; width:180px;}
+.btn{background:url(../image/btn.png) no-repeat; width:304px; height:39px; cursor:pointer; border:none; outline:none;}
+#validateImg{width:70px;height:30px; margin-left:7px; float:left;}*/
+
+
+
+
+
+input{ height:18px; padding:4px 5px 4px 5px;}
+
+/*登录页开始*/
+.loginCss{background:url(../image/cmsloginui.png) no-repeat; width:386px; height:418px; overflow:hidden; margin:50px auto 0 auto; position:relative; z-index:888;
+}
+.video-css{height:100%; width:100%; overflow:hidden; position:absolute; left:0; top:0; }
+
+.frm-logins{}
+.login_input{ width: 120px;
+height: 20px;
+border: none;
+background: #fff;
+outline: none;
+margin-top: -5px;
+padding:5px 0; height:25px; line-height:25px; font-size:14px;margin-left:90px; width:140px;  vertical-align:middle;}
+.login_input3{ width:260px;}
+.change-img{ display:inline-block; *display:inline;*zoom:1; width:40px; height:30px; cursor:pointer; vertical-align:middle;}
+.sbt{ margin-top:20px; position:relative; overflow:visible; background:none;}
+.sbt input{ width:326px; height:43px; display:block; position:absolute; left:30px; top:-40px;+top:-10px; line-height:9999px; overflow:hidden; background:transparent; border:none; cursor:pointer; }
+.logo-imgs{ position:relative; z-index:999; width:1000px; margin:0 auto; padding-top:30px; text-align:center;}
+.copycss6{ position:relative; width:1000px; text-align:center; text-align:center; margin:0 auto; margin-top:50px;}
+.validateImg{ width:80px; height:30px; position:relative; top:5px;}
+

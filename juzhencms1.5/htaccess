@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteRule ^index\.html(\?.+)?$ index.php$1 [QSA]
+RewriteRule ^(.+\.html)(\?(.+))?$ index.php?alias=/$1&$3 [QSA]
+RewriteRule ^([^\.]+)(\?(.+))?$ index.php?alias=/$1&$3 [QSA]

@@ -1,0 +1,9 @@
+User-agent: * 
+Disallow: /juzhen
+Disallow: /include
+Disallow: /res
+Disallow: /file
+Disallow: /api
+Disallow: /app
+Disallow: /uc_client
+Disallow: /global.php$
